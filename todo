@@ -1,0 +1,26 @@
+//todo
+
+all .ml model files go in model folder
+
+Example .ml file : user.ml
+	name: String
+	password: String
+
+all .cl controller files go in controllers folder
+
+Example .cl file : home.cl
+	//still working on this 
+
+make a grunt task to generate model and controllers
+all model and controllers go in build folder
+
+main folder: app
+
+app
+|---build
+|---models (.ml files)
+|---controllers (.cl files)
+|---www
+|---GruntFile
+|---node_modules
+|---package.json
